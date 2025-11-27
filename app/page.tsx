@@ -29,7 +29,7 @@ const flashItems = [
 // Best Seller
 const bestSellers = [
   { id: "capcut", title: "Capcut Pro", subtitle: "Editor", emoji:"✂️", price:"Rp 30.000", discountPrice:"Rp 20.000", stock: 20, maxStock: 50, sold: 30 },
-  { id: "config EAI-GEN", title: "EAI-GENERATOR", subtitle: "EAI-GEN", emoji:"🚀", price:"Rp 100.000", discountPrice:"Rp 50.000", stock: 15, maxStock: 40, sold: 25 },
+  { id: "config eai", title: "EAI-GEN", subtitle: "EAI-GEN", emoji:"🚀", price:"Rp 100.000", discountPrice:"Rp 50.000", stock: 15, maxStock: 40, sold: 25 },
   { id: "nordvpn", title: "NordVPN", subtitle: "1 Tahun", emoji:"🛡️", price:"Rp 80.000", discountPrice:"Rp 50.000", stock: 12, maxStock: 30, sold: 18 },
   { id: "expressvpn", title: "ExpressVPN", subtitle: "1 Bulan", emoji:"🔒", price:"Rp 30.000", discountPrice:"Rp 20.000", stock: 10, maxStock: 25, sold: 15 },
   { id: "hmavpn", title: "HmaVpn", subtitle: "1 Bulan", emoji:"🔒", price:"Rp 30.000", discountPrice:"Rp 20.000", stock: 10, maxStock: 25, sold: 15 },
