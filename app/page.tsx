@@ -29,7 +29,8 @@ const flashItems = [
 // Best Seller
 const bestSellers = [
   { id: "capcut", title: "Capcut Pro", subtitle: "Editor", emoji:"✂️", price:"Rp 30.000", discountPrice:"Rp 20.000", stock: 20, maxStock: 50, sold: 30 },
-  { id: "config eai", title: "EAI-GEN", subtitle: "EAI-GEN", emoji:"🚀", price:"Rp 100.000", discountPrice:"Rp 50.000", stock: 15, maxStock: 40, sold: 25 },
+  { id: "config eai", title: "EAI-GEN IMG", subtitle: "EAI-GEN IMG", emoji:"🚀", price:"Rp 100.000", discountPrice:"Rp 50.000", stock: 15, maxStock: 40, sold: 25 },
+  { id: "config eai", title: "EAI-GEN IMG TO VIDEO", subtitle: "EAI-GEN IMG TO VIDEO", emoji:"🚀", price:"Rp 400.000", discountPrice:"Rp 300.000", stock: 15, maxStock: 40, sold: 25 },
   { id: "nordvpn", title: "NordVPN", subtitle: "1 Tahun", emoji:"🛡️", price:"Rp 80.000", discountPrice:"Rp 50.000", stock: 12, maxStock: 30, sold: 18 },
   { id: "expressvpn", title: "ExpressVPN", subtitle: "1 Bulan", emoji:"🔒", price:"Rp 30.000", discountPrice:"Rp 20.000", stock: 10, maxStock: 25, sold: 15 },
   { id: "hmavpn", title: "HmaVpn", subtitle: "1 Bulan", emoji:"🔒", price:"Rp 30.000", discountPrice:"Rp 20.000", stock: 10, maxStock: 25, sold: 15 },
@@ -40,7 +41,7 @@ const bestSellers = [
 const aiTools = [
   { id: "blackboxai", title: "Blackbox AI", subtitle: "Coding Tools", emoji:"🥷", price:"Rp 60.000", discountPrice:"Rp 30.000", stock: 0, maxStock: 30, sold: 18 },
   { id: "chatgptplus", title: "ChatGPT Plus", subtitle: "AI Tools", emoji:"🧠", price:"Rp 70.000 / bulan", discountPrice:"Rp 50.000 / bulan", stock: 30, maxStock: 100, sold: 70 },
-  { id: "chatgptpro", title: "ChatGPT Pro", subtitle: "AI Tools", emoji:"🧠", price:"Rp 70.000 / bulan", discountPrice:"Rp 50.000 / bulan", stock: 0, maxStock: 100, sold: 70 },
+  { id: "chatgptgo", title: "ChatGPT GO", subtitle: "AI Tools", emoji:"🧠", price:"Rp 70.000 / tahun", discountPrice:"Rp 60.000 / tahun", stock: 45, maxStock: 100, sold: 70 },
   { id: "gemini", title: "Gemini veo3", subtitle: "AI Tools", emoji:"✨", price:"Rp 100.000 / tahun", discountPrice:"Rp 70.000 / tahun", stock: 25, maxStock: 80, sold: 55 },
   { id: "suno", title: "Suno AI", subtitle: "Music AI", emoji:"🎶", price:"Rp 70.000 / bulan", discountPrice:"Rp 50.000 / bulan", stock: 18, maxStock: 60, sold: 42 },
   { id: "klingai", title: "Kling AI", subtitle: "Video AI", emoji:"🎥", price:"Rp 15.000 / hari", discountPrice:"Rp 10.000 / hari", stock: 15, maxStock: 40, sold: 25 },
