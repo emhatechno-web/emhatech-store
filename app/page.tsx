@@ -29,7 +29,7 @@ const flashItems = [
 // Best Seller
 const bestSellers = [
   { id: "capcut", title: "Capcut Pro", subtitle: "Editor", emoji:"✂️", price:"Rp 30.000", discountPrice:"Rp 20.000", stock: 20, maxStock: 50, sold: 30 },
-  { id: "config eai", title: "EAI-GEN IMG", subtitle: "EAI-GEN IMG", emoji:"🚀", price:"Rp 100.000", discountPrice:"Rp 50.000", stock: 15, maxStock: 40, sold: 25 },
+  { id: "config eai", title: "EAI-GEN IMG", subtitle: "EAI-GEN IMG", emoji:"🚀", price:"Rp 100.000", discountPrice:"Rp 70.000", stock: 15, maxStock: 40, sold: 25 },
   { id: "config eai", title: "EAI-GEN IMG TO VIDEO", subtitle: "EAI-GEN IMG TO VIDEO", emoji:"🚀", price:"Rp 400.000", discountPrice:"Rp 300.000", stock: 15, maxStock: 40, sold: 25 },
   { id: "nordvpn", title: "NordVPN", subtitle: "1 Tahun", emoji:"🛡️", price:"Rp 80.000", discountPrice:"Rp 50.000", stock: 12, maxStock: 30, sold: 18 },
   { id: "expressvpn", title: "ExpressVPN", subtitle: "1 Bulan", emoji:"🔒", price:"Rp 30.000", discountPrice:"Rp 20.000", stock: 10, maxStock: 25, sold: 15 },
@@ -39,27 +39,14 @@ const bestSellers = [
 
 // AI Tools
 const aiTools = [
-  { id: "blackboxai", title: "Blackbox AI", subtitle: "Coding Tools", emoji:"🥷", price:"Rp 60.000", discountPrice:"Rp 30.000", stock: 0, maxStock: 30, sold: 18 },
   { id: "chatgptplus", title: "ChatGPT Plus", subtitle: "AI Tools", emoji:"🧠", price:"Rp 70.000 / bulan", discountPrice:"Rp 50.000 / bulan", stock: 30, maxStock: 100, sold: 70 },
-  { id: "chatgptgo", title: "ChatGPT GO", subtitle: "AI Tools", emoji:"🧠", price:"Rp 70.000 / tahun", discountPrice:"Rp 60.000 / tahun", stock: 45, maxStock: 100, sold: 70 },
-  { id: "gemini", title: "Gemini veo3", subtitle: "AI Tools", emoji:"✨", price:"Rp 100.000 / tahun", discountPrice:"Rp 70.000 / tahun", stock: 25, maxStock: 80, sold: 55 },
+  { id: "chatgptgo", title: "ChatGPT GO", subtitle: "AI Tools", emoji:"🧠", price:"Rp 70.000 / tahun", discountPrice:"Rp 50.000 / tahun", stock: 45, maxStock: 100, sold: 70 },
+  { id: "gflow", title: "GFLOW 45000", subtitle: "AI Tools", emoji:"✨", price:"Rp 300.000 / 1 bulann", discountPrice:"Rp 100.000 / 1 bulan", stock: 25, maxStock: 80, sold: 55 },
   { id: "suno", title: "Suno AI", subtitle: "Music AI", emoji:"🎶", price:"Rp 70.000 / bulan", discountPrice:"Rp 50.000 / bulan", stock: 18, maxStock: 60, sold: 42 },
-  { id: "klingai", title: "Kling AI", subtitle: "Video AI", emoji:"🎥", price:"Rp 15.000 / hari", discountPrice:"Rp 10.000 / hari", stock: 15, maxStock: 40, sold: 25 },
-  { id: "elevelab", title: "Elevelab", subtitle: "Voice AI", emoji:"🗣️", price:"Rp 30.000 / hari", discountPrice:"Rp 20.000 / hari", stock: 15, maxStock: 40, sold: 25 },
-  { id: "pixverse", title: "Pixverse", subtitle: "Image/Video AI", emoji:"🖼️", price:"Rp 150.000 / bulan", discountPrice:"Rp 120.000 / bulan", stock: 10, maxStock: 25, sold: 15 },
 ];
 
 // Games
 const games = [
-  {name:"Mobile Legends", sub:"Bang Bang", code:"ML", thumb:"🛡️", price:"Rp 40.000", discountPrice:"Rp 20.000", stock: 50, maxStock: 200, sold: 150},
-  {name:"FREE FIRE", sub:"Garena", code:"FF", thumb:"🔥", price:"Rp 50.000", discountPrice:"Rp 25.000", stock: 40, maxStock: 150, sold: 110},
-  {name:"PUBG Mobile", sub:"PUBG Corp", code:"PUBG", thumb:"🎯", price:"Rp 60.000", discountPrice:"Rp 30.000", stock: 35, maxStock: 100, sold: 65},
-  {name:"Genshin Impact", sub:"HoYoverse", code:"GI", thumb:"🌬️", price:"Rp 100.000", discountPrice:"Rp 50.000", stock: 12, maxStock: 50, sold: 38},
-  {name:"VALORANT", sub:"Riot Games", code:"VAL", thumb:"🎯", price:"Rp 90.000", discountPrice:"Rp 45.000", stock: 15, maxStock: 60, sold: 45},
-  {name:"MARVEL", sub:"NetEase", code:"MARV", thumb:"🦸", price:"Rp 80.000", discountPrice:"Rp 40.000", stock: 20, maxStock: 70, sold: 50},
-  {name:"Ragnarok M", sub:"Gravity", code:"RO", thumb:"⚔️", price:"Rp 70.000", discountPrice:"Rp 35.000", stock: 10, maxStock: 40, sold: 30},
-  {name:"Point Blank", sub:"Zepetto", code:"PB", thumb:"🔫", price:"Rp 60.000", discountPrice:"Rp 30.000", stock: 8, maxStock: 30, sold: 22},
-  {name:"Call of Duty", sub:"Mobile", code:"CODM", thumb:"☢️", price:"Rp 80.000", discountPrice:"Rp 40.000", stock: 9, maxStock: 30, sold: 21},
   {name:"Roblox", sub:"Roblox Corp.", code:"RBX", thumb:"🧱", price:"Rp 30.000", discountPrice:"Rp 15.000", stock: 25, maxStock: 100, sold: 75},
 ];
 
